@@ -1,0 +1,25 @@
+# ROS2 工作空间自动生成目录
+build/
+install/
+log/
+
+# 临时文件
+*.swp
+*.swo
+*~
+.DS_Store
+
+# IDE 配置文件（可选，根据你用的编辑器添加）
+.vscode/
+.idea/
+cmake-build-*/
+
+# 编译产物相关
+*.so
+*.a
+*.o
+*.pyc
+__pycache__/
+
+# 其他临时目录
+devel/  # 兼容 ROS1 习惯（ROS2 无此目录，但可保留防止误创建）
